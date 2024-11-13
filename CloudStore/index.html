@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudStore</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+                         <!-- Ícone de "email"  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+
+    <script src="js/style.js" defer></script>
+
+
+    
+</head>
+
+<a href="#" class="icone-carrinho">
+    <i class="fas fa-shopping-cart"></i> <!-- Ícone de carrinho -->
+</a>
+
+<body>
+    <header>
+        <nav>
+            <ul> <!-- adicionando mais detalhes no site  -->
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+                 <!-- incluindo Logo do site -->
+        <img src="imgdosite/CloudStore.v2.PNG" alt="Logo CloudStore" class="logo-CloudStore">
+
+         <!-- incluindo Barra de pesquisa  -->
+        <input type="text" id="Buscar-produtos" placeholder="Buscar produtos...">
+    </header>
+
+<!-- adicionando informações de ofertas e descontos-->
+    <section id="sobre">
+        <h2>Ofertas imperdíveis!</h2>
+        <p>Use o CUPOM: CLOUD10 para desconto de 10% na primeira compra!.</p>
+        <p>O site inteiro com promoções imperdiveis!</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Veja nossos produtos!</h2>
+        <p>PlayStation®5 Standard Edition por apenas R$ 3.950,00!</p>
+        <div class="produtos-container">
+
+            
+            <div class="produtos" data-category="web">                <!-- usando style para mudar o tamanho e altura--> 
+                <img src="imgdosite/eafc25.jpg" alt="EA Sports FC 25 - Playstation 5" style="width: 130px; height: auto;"> <!--adicionando imagem ao produto usando o img src="" -->
+                <h3>EA Sports FC 25 - Playstation 5</h3>
+                <p><s>De:R$ 379,90</s></p><!-- incluindo preço antes da promoção dos produtos  -->
+                <h6>Por: R$ 304,79</h6> <!-- incluindo preço final dos produtos  -->
+                <h4>Em estoque</h4> <!-- produto ainda em estoque...-->
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button><!-- incluindo Botão "Adicionar ao carrinho" usando "button"-->
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/volante.jpg" alt="Volante Logitech G923" style="width: 200px; height: auto;">
+                <h3>Volante Logitech G923 para PS5, PS4 e PC com Force Feedback TRUEFORCE</h3>
+                <p><s> De: R$ 2.690,00</s></p>
+              <h6>Por: R$ 2.405,50</h6>
+                <h4>Em estoque</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/nba.jpg" alt="NBA 2K24" style="width: 130px; height: auto;">
+                <h3>NBA 2K24 - PlayStation 5</h3>
+               <h6>R$ 305,87</h6> <!-- incluindo preço dos produtos  --> 
+                <h4>Use o CUPOM: CLOUD10 para 10% de desconto na primeira compra!</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+          
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/ps5limitado.jpg" alt="PS5 Edição Slim Digital" style="width: 130px; height: auto;">
+                <h3>PlayStation 5 Edição Slim Digital - Bundle edição limitada do 30º aniversário</h3>
+                <h5>Indisponível</h5>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button >
+            </div>
+            
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/mouse.jpg" alt="Mouse Gamer Razer DeathAdder" style="width: 80px; height: auto;">
+                <h3>Mouse gamer Razer DeathAdder Essential, sensor óptico de 6400 DPI, Mercury White™</h3>
+                <p><s>De: R$ 157,50</s></p>
+                <h6>Por: R$ 133,80</h6>
+                <h4>Em estoque</h4>
+              
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/controleastro.jpg" alt="DualSense Wireless Controller" style="width: 150px; height: auto;">
+                <h3>DualSense Wireless Controller - Astro Bot Limited Edition™</h3>
+                <p><s>De: R$ 1.890</s></p>
+                <h6>Por:R$ 1.134</h6>
+                <h4>Em estoque</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/ps5.jpg" alt="PlayStation DualSense Controle" style="width: 150px; height: auto;">
+                <h3>PlayStation DualSense Controle sem fio – Branco</h3>
+                <p><s>De: R$ 449,00 </s></p>
+                <h6>Por: R$ 399,00</h6>
+                <h4>Entrega GRÁTIS</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+        
+            <div class="produtos" data-category="web">            
+                <img src="imgdosite/granturismo.jpg" alt="Gran Turismo 7" style="width: 130px; height: auto;">
+                <h3>Gran Turismo 7 Edição Padrão - PlayStation 5</h3>
+                <h6>R$ 349,03</h6>
+                <h4>Use o CUPOM: CLOUD10 para 10% de desconto na primeira compra!</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/f1.jpg" alt="F1 24" style="width: 130px; height: auto;">
+                <h3>F1 24 - PlayStation 5</h3>
+                <p><s>De: R$ 359,90</s></p>
+                <h6>Por: R$ 339,89</h6>
+                <h4>Entrega GRÁTIS 18 - 26 de Novembro</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/thecrew.jpg" alt="The Crew: Motorfest" style="width: 130px; height: auto;">
+                <h3>The Crew: Motorfest - PlayStation 5</h3>
+                <h6>R$350,00</h6>
+                <h4>Use o CUPOM: CLOUD10 para 10% de desconto na primeira compra!</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+            
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/dualpreto.webp" alt="Controle Dualsense Midnight Black" style="width: 160px; height: auto;">
+                <h3>Controle DualSense Midnight Black Ps5 Cor Preto™</h3>
+                <p><s>De: R$ 449,00</s></p>
+               <h6>Por: R$ 399,49</h6>
+               <h4>Entrega GRÁTIS</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+            
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/ps5normal.jpg" alt="PlayStation 5 Standard Edition" style="width: 130px; height: auto;">
+                <h3>PlayStation®5 Standard Edition</h3>
+                <p><s>De: R$ 4.499,90</s></p>
+                <h6>Por: R$ 3.950,00</h6>
+                <h4>Entrega GRÁTIS</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/headset.jpg" alt="Headset sem fio PULSE 3D" style="width: 130px; height: auto;">
+                <h3>Headset sem fio PULSE 3D - PlayStation 5</h3>
+                <p><s>De: R$ 599,00 </s></p>
+               <h6>Por: R$ 522,48</h6>
+               <h4>Entrega GRÁTIS 19 - 27 de Novembro</h4>
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos" data-category="web">
+                <img src="imgdosite/astroheadset.jpg" alt="Headset ASTRO Gaming A50" style="width: 130px; height: auto;">
+                <h3>Headset Sem Fio ASTRO Gaming A50 + Base Station Gen 4</h3>
+                <p><s>De: R$ 2.299,90</s></p>
+                <h6>Por: R$ 1.369,99</h6>
+                <h4>Em estoque</h4>
+                <h5>Restam apenas 10 unidades!</h5>
+                
+                <button class="Adicionar ao carrinho">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </section>
+    
+<!-- incluindo cadastro no site -->
+    <section id="cadastro">
+        <h2>Cadastro</h2>
+        <form id="form-cadastro">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><!-- pedindo ao usuario inserir o seu nome"-->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><!-- pedindo ao usuario inserir o seu email"-->
+            <button type="submit">Cadastrar</button><!-- incluindo Botão "cadastrar"-->
+        </form>
+        <!-- inserindo mensagem de erro, caso o usuario não tenha inserido todos os campos pedidos-->
+        <p id="erro-cadastro" style="color: red; display: none;">Por favor, preencha todos os campos.</p>
+    </section>
+<!-- adcionando "contato" no site, section id-->
+    <section id="contato">
+        <h2>Contato</h2>
+        <a href="https99://example.com/contact" class="botão-contato">
+            <i class="fas fa-envelope"></i> <!-- icone de carta em contato, para adicionar mais detalhes ao site -->
+        </a>
+    </section>
+<!-- "rodapé" do site, parte de baixo do site-->
+    <footer>
+        <h1>© 2024 CloudStore - Loja oficial</h1>
+    </footer>
+</body>
+</html>
